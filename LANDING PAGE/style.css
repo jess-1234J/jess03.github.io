@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Original Surfer' , cursive;
+    color: aliceblue;
+    font-size: 50px;
+    color: black;
+    
+}
+header p{
+    color: violet;
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px;
+    overflow: hidden;
+    background-color: aliceblue;
+    float: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+li {
+    display: inline;
+    line-height: 1.5;
+    font-size: 30px;
+}
+li a{
+    color: black;
+}
+header{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(eye.jpeg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+header .btn{
+    text-decoration: none;
+    padding: 13px 90px;
+    background-color: crimson;
+    color: #fff;
+    font-size: 18px;
+    transition: all .4s ease;
+}
+header .btn:hover{
+    opacity: .7;
+    box-shadow: 0 0 12px crimson;
+}
+body h1{
+    font-size: 50px;
+}
